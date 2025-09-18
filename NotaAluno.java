@@ -21,7 +21,7 @@ public class NotaAluno {
 							} else {
 									System.out.println("Que pena! O aluno(a) " + Aluno +", não passou de ano." );
 							}
-				
+				scannear.close();
 					
 					
 		}
