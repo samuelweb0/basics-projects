@@ -19,5 +19,5 @@ public class Desconto100Reais {
 			}
 			
 			scanner.close();
-		}
-}
+		    }
+            }
