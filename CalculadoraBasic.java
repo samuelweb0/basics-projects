@@ -5,27 +5,20 @@ import java.util.Scanner;
 public class CalculadoraBasic {
 		public static void main(String[] args) {
 			Scanner scannear = new Scanner(System.in);
-								System.out.print("Digite o primeiro valor da operação desejada: ");
-							Long PrimeiroValor = scannear.nextLong();
-						System.out.print("Digite o segundo valor da operação desejada: ");
-					Long SegundoValor = scannear.nextLong();
+		System.out.print("Digite o primeiro valor da operação desejada: ");
+		Long PrimeiroValor = scannear.nextLong();
+		System.out.print("Digite o segundo valor da operação desejada: ");
+		Long segundoValor = scannear.nextLong();
 				
-				Long ResultadoSubtracao = PrimeiroValor - SegundoValor;
-				
-			System.out.println(PrimeiroValor+ " dividido por " +SegundoValor+ " é: " +PrimeiroValor / SegundoValor);
-				
-		System.out.println(PrimeiroValor+ " multiplicado por " +SegundoValor+ " é: " +PrimeiroValor * SegundoValor);
-				
-			System.out.println(PrimeiroValor+ " somado por " +SegundoValor+ " é: " +PrimeiroValor + SegundoValor);
+		Long resultadoSubtracao = primeiroValor - segundoValor;
+        Long resultadoSoma = primeiroValor + segundoValor;
 			
-				System.out.println(PrimeiroValor+ " subtraido por " +SegundoValor+ " é: " +ResultadoSubtracao);
-					
-				System.out.println("Módulo de " +PrimeiroValor+ " com " +SegundoValor+ " é: "  +PrimeiroValor % SegundoValor);
-				
-							
-							
-							
-							
+		System.out.println(primeiroValor+ " dividido por " +segundoValor+ " é: " +primeiroValor / segundoValor);		
+		System.out.println(primeiroValor+ " multiplicado por " +segundoValor+ " é: " +PrimeiroValor * segundoValor);
+		System.out.println(primeiroValor+ " somado por " +segundoValor+ " é: " +resultadoSoma);
+		System.out.println(primeiroValor+ " subtraido por " +segundoValor+ " é: " +sesultadoSubtracao);
+		System.out.println("Módulo de " +primeiroValor+ " com " +segundoValor+ " é: "  +srimeiroValor % segundoValor);
+			
 			scannear.close();				
 							
 		}
