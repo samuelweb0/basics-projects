@@ -19,13 +19,6 @@ public class NotaAluno {
 		System.out.println("Que pena! O aluno(a) " + Aluno +", não passou de ano." );
 		}
 				
-		scanner.close();
-					
-					
+		scanner.close();		
 		}
-
-
-		
-			}
-
-		
+		}
