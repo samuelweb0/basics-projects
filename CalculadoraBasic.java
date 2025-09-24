@@ -19,7 +19,6 @@ public class CalculadoraBasic {
 		System.out.println(primeiroValor+ " subtraido por " +segundoValor+ " é: " +sesultadoSubtracao);
 		System.out.println("Módulo de " +primeiroValor+ " com " +segundoValor+ " é: "  +srimeiroValor % segundoValor);
 			
-			scannear.close();				
-							
+	    scannear.close();							
 		}
-}
+        }
