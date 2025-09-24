@@ -4,19 +4,20 @@ import java.util.Scanner;
 
 public class Desconto100Reais {
 		public static void main(String[] args) {
-			Scanner scannear = new Scanner(System.in);
+			Scanner scanner = new Scanner(System.in);
 			
 			System.out.print("Digite o valor do produto: ");
-				Long ValorDoProduto = scannear.nextLong();
-						int Frete = 15;
-					Long TotalComFrete = ValorDoProduto + Frete;
+			Long valorDoProduto = scannear.nextLong();
+			int Frete = 15;
+			Long totalComFrete = valorDoProduto + Frete;
 					
-					Boolean SemFrete = ValorDoProduto >= 100;
-						if (SemFrete) {
-							System.out.println("Valor total da compra: " +ValorDoProduto);
-						} else {
-							System.out.println("Valor total da compra: " +TotalComFrete);
-						}
-			scannear.close();
+			Boolean semFrete = valorDoProduto >= 100;
+			if (semFrete) {
+			System.out.println("Valor total da compra: " +ValorDoProduto);
+			} else {
+			System.out.println("Valor total da compra: " +TotalComFrete);
+			}
+			
+			scanner.close();
 		}
 }
