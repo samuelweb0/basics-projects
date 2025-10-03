@@ -30,9 +30,7 @@ public class TarefasDoDia {
 			String atribuirValor = todasTarefas[variavelFor];
 			String receberValor = atribuirValor += y;
 			System.out.println("Tarefa " +variavelFor+ ": " +receberValor);
-			
 		}
-		
 		scanner.close();
 	}
 }
