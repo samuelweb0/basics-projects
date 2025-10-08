@@ -15,8 +15,6 @@ public class BebidasComMetodo {
 		
 		System.out.print("Você escolheu a bebida " +listaBebidas[receberNumero]);
 	}
-		String[] listaBebidas = {"Àgua, Refrigerante, Café, Suco de uva"};
- 	
 	static void impressaoBarras() {
 		System.out.println("//////////////////////////////////////////////////////////");
 	}
