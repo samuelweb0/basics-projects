@@ -7,17 +7,16 @@ public class Desconto100Reais {
 			Scanner scanner = new Scanner(System.in);
 			
 			System.out.print("Digite o valor do produto: ");
-			Long valorDoProduto = scannear.nextLong();
-			int Frete = 15;
-			Long totalComFrete = valorDoProduto + Frete;
+			Long valueProduct = scannear.nextLong();
+			int freight = 15;
+			Long totalFreight = valueProduct + freight;
 					
-			Boolean semFrete = valorDoProduto >= 100;
-			if (semFrete) {
-			System.out.println("Valor total da compra: " +ValorDoProduto);
+			Boolean noFreight = valueProduct >= 100;
+			if (noFreight) {
+			System.out.println("Valor total da compra: " +valueProduct);
 			} else {
-			System.out.println("Valor total da compra: " +TotalComFrete);
+			System.out.println("Valor total da compra: " +totalFreight);
 			}
-			
 			scanner.close();
-		    }
+		    	}
             }
